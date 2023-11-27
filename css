@@ -1,0 +1,146 @@
+/* Apply a background color and some padding to the body */
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Style the main content container */
+.main-content {
+    margin-top: 20px;
+}
+
+/* Style the card components */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.picture {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+/* Style the "Read More" buttons */
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+/* Style the footer */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the modal */
+.modal-content {
+    padding: 20px;
+}
+
+/* Customize the registration form input fields */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style the toggle button container */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Style the switch (the checkbox) */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+/* Style the slider (round or rectangular) */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: all  0.4s ease-in;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/* Style the round slider */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Styles for the quote generator */
+.content {
+    margin-top: 50px;
+}
+
+#quote-output {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#author-output {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#new-quote-btn {
+    margin-top: 30px;
+}
